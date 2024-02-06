@@ -35,12 +35,18 @@
   flex-direction: column;
   gap: 25px;
   width: -webkit-fill-available;
+  position: relative;
 }
 
 .accessForm form input {
   padding: 15px 20px;
   border-radius: 25px;
   border: none;
+}
+
+input {
+  font-family: "Open Sans", sans-serif;
+  font-size: 11px;
 }
 
 input::placeholder {
@@ -51,6 +57,17 @@ input::placeholder {
 
 input:focus {
   outline-color: transparent;
+}
+
+.errorMsg {
+  font-family: "Open Sans", sans-serif;
+  margin-left: 20px;
+  color: hsl(0, 100%, 63%);
+  font-size: 9px;
+  word-spacing: 1.5px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 50%;
 }
 
 .accessForm form button {
