@@ -1,0 +1,48 @@
+.testimonialCard {
+  background: hsl(219, 30%, 18%);
+  color: hsl(0, 0%, 100%);
+  font-family: "Open Sans", sans-serif;
+  width: 75%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 22px 21px;
+}
+
+.testimonialCard > p {
+  font-size: 10px;
+  line-height: 1.8;
+}
+
+.testimonialProfile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 55%;
+}
+
+.testimonialProfile img {
+  border-radius: 100px;
+  width: 25px;
+  height: 25px;
+}
+
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3px;
+}
+
+.profileInfo > p {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+}
+
+.profileInfo > span {
+  font-size: 8px;
+  letter-spacing: 0.5px;
+}

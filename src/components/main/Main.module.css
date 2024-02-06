@@ -1,0 +1,28 @@
+.main {
+  position: relative;
+}
+
+.main .quote {
+  position: absolute;
+  width: 22px;
+  left: 14%;
+  bottom: 26.5%;
+}
+
+.featureCardWrapper {
+  background-color: hsl(218, 28%, 13%);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 85px;
+  padding: 100px 20px;
+}
+
+.testimonialsCardsWrapper {
+  background-color: hsl(218, 28%, 13%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 145px 0 345px;
+}

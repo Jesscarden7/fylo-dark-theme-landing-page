@@ -1,0 +1,54 @@
+.mainBanner {
+  background-color: hsl(217, 28%, 15%);
+  background-image: url("../../../assets/images/bg-curvy-mobile.svg");
+  background-repeat: no-repeat;
+  background-position-y: 185px;
+}
+
+.imgWrapper {
+  text-align: center;
+}
+
+.imgWrapper img {
+  width: 302px;
+}
+
+.infoWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 29px;
+  background: linear-gradient(transparent 25%, hsl(218, 28%, 13%) 25%);
+}
+
+.infoWrapper h2 {
+  font-family: "Raleway", sans-serif;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  font-size: 23px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+.infoWrapper p {
+  font-family: "Open Sans", sans-serif;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  font-size: 13.5px;
+  line-height: 1.5;
+  letter-spacing: 0.6px;
+  margin-bottom: 12px;
+}
+
+.infoWrapper button {
+  background: linear-gradient(hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  color: hsl(0, 0%, 100%);
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  border: none;
+  border-radius: 25px;
+  width: 237px;
+  padding: 17px;
+  letter-spacing: 0.4px;
+}

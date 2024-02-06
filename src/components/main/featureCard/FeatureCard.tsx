@@ -1,11 +1,18 @@
-import styles from './FeatureCard.module.css'
+import styles from "./FeatureCard.module.css";
+import { feature } from "../../../types";
 
-function FeatureCard() {
-  return ( 
+type featureProps = {
+  feature: feature;
+};
+
+function FeatureCard({ feature }: featureProps) {
+  return (
     <div className={styles.featureCard}>
-      Feature Card
+      <img src={feature.icon} />
+      <h3>{feature.title}</h3>
+      <p>{feature.description}</p>
     </div>
-   );
+  );
 }
 
 export default FeatureCard;

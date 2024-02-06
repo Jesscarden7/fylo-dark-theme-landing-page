@@ -1,0 +1,21 @@
+.header {
+  background: hsl(217, 28%, 15%);
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+
+.logoWrapper img {
+  width: 80px;
+  height: 25px;
+}
+
+.navbar {
+  color: hsl(0, 0%, 100%);
+  font-size: 12px;
+  width: 163px;
+  display: flex;
+  justify-content: space-between;
+}
