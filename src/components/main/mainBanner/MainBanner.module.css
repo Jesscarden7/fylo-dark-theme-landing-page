@@ -52,3 +52,44 @@
   padding: 17px;
   letter-spacing: 0.4px;
 }
+
+@media (min-width: 1440px) {
+  .mainBanner {
+    height: 1049px;
+    background-image: url("../../../assets/images/bg-curvy-desktop.svg");
+    background-position-y: 635px;
+  }
+
+  .imgWrapper img {
+    width: unset;
+    margin-bottom: 18px;
+  }
+
+  .infoWrapper {
+    background: unset;
+    width: 52%;
+    margin: auto;
+  }
+
+  .infoWrapper h2 {
+    font-size: 38px;
+  }
+
+  .infoWrapper p {
+    font-size: 19px;
+    width: 90%;
+    padding-top: 10px;
+  }
+
+  .infoWrapper button {
+    width: 282px;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 15.5px;
+  }
+
+  .infoWrapper button:hover {
+    cursor: pointer;
+    background: hsl(176, 68%, 64%);
+  }
+}

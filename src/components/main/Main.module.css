@@ -6,7 +6,7 @@
   position: absolute;
   width: 22px;
   left: 14%;
-  bottom: 26.5%;
+  bottom: 26.3%;
 }
 
 .featureCardWrapper {
@@ -25,4 +25,24 @@
   align-items: center;
   gap: 20px;
   padding: 145px 0 345px;
+}
+
+@media (min-width: 1440px) {
+  .featureCardWrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 15px 235px 100px;
+  }
+
+  .main .quote {
+    width: unset;
+    left: 9.3%;
+    bottom: 17.8%;
+  }
+
+  .testimonialsCardsWrapper {
+    flex-direction: row;
+    padding: 178px 141px 360px;
+    justify-content: space-between;
+  }
 }

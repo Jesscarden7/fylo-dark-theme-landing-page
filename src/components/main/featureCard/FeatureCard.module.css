@@ -22,3 +22,22 @@
   font-size: 14px;
   line-height: 1.5;
 }
+
+@media (min-width: 1440px) {
+  .featureCard {
+    width: 39%;
+    margin: auto;
+  }
+
+  .featureCard img {
+    width: unset;
+  }
+
+  .featureCard h3 {
+    font-size: 18px;
+  }
+
+  .featureCard p {
+    font-size: 13.5px;
+  }
+}

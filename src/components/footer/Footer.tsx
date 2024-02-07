@@ -14,57 +14,59 @@ function Footer() {
       <div className={styles.logoWrapper}>
         <img src={logo} />
       </div>
-      <div className={styles.location}>
-        <img src={location} />
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua
-        </p>
-      </div>
-      <div className={styles.contact}>
-        <div className={styles.phone}>
-          <img src={phone} />
-          <p>+1-543-123-4567</p>
+      <div className={styles.bottomInfo}>
+        <div className={styles.location}>
+          <img src={location} />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua
+          </p>
         </div>
-        <div className={styles.email}>
-          <img src={email} />
-          <p>example@fylo.com</p>
+        <div className={styles.contact}>
+          <div className={styles.phone}>
+            <img src={phone} />
+            <p>+1-543-123-4567</p>
+          </div>
+          <div className={styles.email}>
+            <img src={email} />
+            <p>example@fylo.com</p>
+          </div>
         </div>
-      </div>
-      <div className={styles.links}>
-        <ul>
-          <li>About Us</li>
-          <li>Jobs</li>
-          <li>Press</li>
-          <li>Blog</li>
-        </ul>
-        <ul>
-          <li>Contact Us</li>
-          <li>Terms</li>
-          <li>Privacy</li>
-        </ul>
-      </div>
-      <div className={styles.socialMedia}>
-        <div className={styles.iconContainer}>
-          <FontAwesomeIcon
-            icon={faFacebookF}
-            size='xs'
-            className={styles.icons}
-          />
+        <div className={styles.links}>
+          <ul>
+            <li>About Us</li>
+            <li>Jobs</li>
+            <li>Press</li>
+            <li>Blog</li>
+          </ul>
+          <ul>
+            <li>Contact Us</li>
+            <li>Terms</li>
+            <li>Privacy</li>
+          </ul>
         </div>
-        <div className={styles.iconContainer}>
-          <FontAwesomeIcon
-            icon={faTwitter}
-            size='xs'
-            className={styles.icons}
-          />
-        </div>
-        <div className={styles.iconContainer}>
-          <FontAwesomeIcon
-            icon={faInstagram}
-            size='sm'
-            className={styles.icons}
-          />
+        <div className={styles.socialMedia}>
+          <div className={styles.iconContainer}>
+            <FontAwesomeIcon
+              icon={faFacebookF}
+              size='xs'
+              className={styles.icons}
+            />
+          </div>
+          <div className={styles.iconContainer}>
+            <FontAwesomeIcon
+              icon={faTwitter}
+              size='xs'
+              className={styles.icons}
+            />
+          </div>
+          <div className={styles.iconContainer}>
+            <FontAwesomeIcon
+              icon={faInstagram}
+              size='sm'
+              className={styles.icons}
+            />
+          </div>
         </div>
       </div>
     </div>

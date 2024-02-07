@@ -80,3 +80,55 @@ input:focus {
   font-weight: 600;
   letter-spacing: 0.5px;
 }
+
+@media (min-width: 1440px) {
+  .accessForm {
+    width: 60%;
+    height: 277px;
+    right: 20%;
+    padding: 46px 26px 10px;
+  }
+
+  .accessForm h3 {
+    font-size: 30px;
+    padding-bottom: 5px;
+  }
+
+  .accessForm p {
+    width: 85%;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    padding-bottom: 20px;
+  }
+
+  .accessForm form {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 87%;
+  }
+
+  .accessForm form input {
+    width: 68%;
+    padding: 15px 38px;
+    font-size: 12px;
+  }
+
+  input::placeholder {
+    font-size: 12px;
+  }
+
+  .errorMsg {
+    top: 110%;
+    margin-left: 38px;
+    font-size: 10px;
+  }
+
+  .accessForm form button {
+    width: 28%;
+  }
+
+  .accessForm form button:hover {
+    cursor: pointer;
+    background: hsl(176, 68%, 64%);
+  }
+}

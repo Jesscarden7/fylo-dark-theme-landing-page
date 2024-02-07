@@ -6,6 +6,12 @@
   gap: 18px;
 }
 
+.stayProductive {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
 .productiveSection > img {
   width: 301px;
   display: flex;
@@ -18,6 +24,10 @@
   font-size: 16px;
   letter-spacing: 1px;
   margin-top: 30px;
+}
+
+.productiveSection h3 br {
+  display: none;
 }
 
 .productiveSection p {
@@ -40,4 +50,37 @@
   color: hsl(176, 68%, 64%);
   font-size: 12px;
   padding-bottom: 4px;
+}
+
+@media (min-width: 1440px) {
+  .productiveSection {
+    flex-direction: row;
+    padding: 57px 110px 0;
+    gap: 50px;
+  }
+
+  .stayProductive {
+    justify-content: center;
+  }
+
+  .productiveSection > img {
+    width: unset;
+  }
+
+  .productiveSection h3 {
+    font-size: 38px;
+    line-height: 1.3;
+  }
+
+  .productiveSection h3 br {
+    display: unset;
+  }
+
+  .productiveSection p {
+    font-size: 15.5px;
+  }
+
+  .howItWorks {
+    width: 170px;
+  }
 }

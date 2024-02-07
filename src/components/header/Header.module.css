@@ -19,3 +19,28 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media (min-width: 1440px) {
+  .header {
+    padding: 70px 80px;
+  }
+
+  .logoWrapper img {
+    width: unset;
+    height: unset;
+  }
+
+  .navbar {
+    width: 21%;
+  }
+  
+  .navbar nav {
+    font-size: 15px;
+  }
+  
+  .navbar nav:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+}

@@ -2,11 +2,11 @@ import styles from "./Main.module.css";
 import MainBanner from "./mainBanner/MainBanner";
 import FeatureCard from "./featureCard/FeatureCard";
 import ProductiveSection from "./productiveSection/ProductiveSection";
-import TestimonialCard from './testimonialCard/testimonialCard';
+import TestimonialCard from "./testimonialCard/testimonialCard";
 import AccessForm from "./accessForm/AccessForm";
 import { features } from "../../utils/dataFeatures";
 import { testimonials } from "../../utils/dataTestimonials";
-import quote from '../../assets/images/bg-quotes.png'
+import quote from "../../assets/images/bg-quotes.png";
 
 function Main() {
   return (

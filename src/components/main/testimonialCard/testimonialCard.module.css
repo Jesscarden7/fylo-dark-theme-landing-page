@@ -46,3 +46,20 @@
   font-size: 8px;
   letter-spacing: 0.5px;
 }
+
+@media (min-width: 1440px) {
+  .testimonialCard {
+    width: 31%;
+    z-index: 1;
+  }
+
+  .testimonialCard > p {
+    font-size: 14px;
+    letter-spacing: 0.6px;
+    line-height: 1.5;
+  }
+
+  .testimonialProfile {
+    width: 41%;
+  }
+}
